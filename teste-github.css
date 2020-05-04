@@ -1,7 +1,113 @@
-h1 {
-  color: black;
-  font-size: 16px;
+@charset 'utf-8';
+
+
+* {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
 }
-p {
-  background-color: gray;
+
+body {
+  background-color: #FBFBFB;
+  color: #323232;
+}
+
+header, footer {
+  background-color: #E7E7E7;
+  width: 100%;  
+  text-align: justify;
+  text-align-last: justify;
+}
+
+header {
+  box-shadow: 0 1px 3px #CFCFCF;
+  margin-bottom: 9px;
+}
+
+footer {
+  box-shadow: 0 -1px 3px #CFCFCF;
+  margin-top: 13px;
+}
+
+.wrapper {
+  width: 88%;
+  margin: 0 auto;
+  line-height: 1.4;
+}
+
+.title {
+  font-size: 17px;
+  padding: 20px 5px 2px;
+  border-bottom: 1px solid #CFCFCF;
+  margin-bottom: 5px;
+}
+
+.title-top {
+  padding-top: 10px;
+}
+
+p, dd {
+  text-indent: 10px;
+}
+
+.justify {
+  text-align: justify;
+}
+
+.inline-block {
+  display: inline-block;
+  text-indent: 0;
+}
+
+h1, ul, p.inline-block {
+  padding: 20px 10px;
+  vertical-align: middle;
+}
+
+h1, p.inline-block {
+  padding-right: 0;
+}
+
+ul {
+  padding-left: 0;
+}
+
+p.inline-block {
+  line-height: 0.749;
+  color: #9D9D9D;
+}
+
+p spam {
+  margin: 3.5px;
+  color: #323232;
+}
+
+header li {
+  margin-right: 8px;
+}
+
+header li:last-child {
+  margin: 0;
+}
+
+footer li {
+  margin-right: 1px;
+}
+
+footer li:last-child {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  padding: 3px;
+}
+
+a:link {
+  color: #323232;
+}
+
+a:visited {
+  color: #8F8D8D;
 }

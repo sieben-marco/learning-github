@@ -3,48 +3,68 @@
   <head>
     <meta charset="utf-8" />
     <title>Estruturando</title>
-    <meta name="viewport" content="width:device-width" />
+    <meta name="viewport" content="width=device-width" />
 	<link rel="stylesheet" href="teste-github.css" />
   </head>
   <body>
     <header>
-		<h1><a href="#">LOGO</a></h1>
+		<h1 class="inline-block">
+			<a href="#">LOGO</a>
+		</h1>
 
-		<nav>
-			<ul>
-				<li><a href="#">LINK 1</a></li>
-				<li><a href="#">LINK 2</a></li>
-				<li><a href="#">LINK 3</a></li>
+		<nav class="inline-block">
+			<ul class="inline-block">
+				<li class="inline-block">
+					<a class="inline-block" href="#">LINK1</a>
+				</li>
+				<li class="inline-block">
+					<a class="inline-block" href="#">LINK2</a>
+				</li>
+				<li class="inline-block">
+					<a class="inline-block" href="#">LINK3</a>
+				</li>
 			</ul>
 		</nav>
 	</header>
 	<main>
-		<section>
-			<h1>TÍTULO</h1>
-			<p>Texto aqui. Texto aqui. Texto aqui. Texto aqui. Texto aqui. Texto aqui. Texto aqui. Texto aqui. Texto aqui.</p>
+		<div class="wrapper">
+			<section>
+				<h2 class="title title-top">TÍTULO</h2>
+				<p class="justify">Texto para testar o justify. Texto para testar o justify. Texto para testar o justify. Texto para testar o justify. Texto para testar o justify.</p>
 
-			<h2>SUBTÍTULO</h2>
-			<p>Texto aqui. Texto aqui. Texto aqui. Texto aqui. Texto aqui. Texto aqui. Texto aqui. Texto aqui. Texto aqui. Texto aqui. Texto aqui. Texto aqui. Texto aqui. Texto aqui. Texto aqui. Texto aqui. Texto aqui. Texto aqui. Texto aqui. Texto aqui. Texto aqui. Texto aqui. Texto aqui. Texto aqui. Texto aqui. Texto aqui. Texto aqui. Texto aqui. Texto aqui. Texto aqui. Texto aqui. Texto aqui. Texto aqui. Texto aqui. Texto aqui. Texto aqui. Texto aqui. Texto aqui. Texto aqui. Texto aqui. Texto aqui. Texto aqui. Texto aqui. Texto aqui. Texto aqui. Texto aqui. Texto aqui. Texto aqui. Texto aqui. Texto aqui. Texto aqui. Texto aqui. Texto aqui. Texto aqui. Texto aqui. Texto aqui. Texto aqui. Texto aqui. Texto aqui. Texto aqui. Texto aqui. Texto aqui. Texto aqui.</p>
-		</section>
+				<h2 class="title">SUBTÍTULO</h2>
+				<p class="justify">Texto para testar o justify. Texto para testar o justify. Texto para testar o justify. Texto para testar o justify. Texto para testar o justify. Texto para testar o justify. Texto para testar o justify. Texto para testar o justify. Texto para testar o justify.</p>
+				<p class="justify">Texto para testar o justify. Texto para testar o justify. Texto para testar o justify. Texto para testar o justify. Texto para testar o justify. Texto para testar o justify. Texto para testar o justify. Texto para testar o justify. Texto para testar o justify. Texto para testar o justify.</p>
+			</section>
+			<aside>
+				<h3 class="title">HABILIDADES</h3>
+				<dl>
+					<dt>HTML</dt>
+					<dd>Já aprendi o suficiente.</dd>
+					<dt>CSS</dt>
+					<dd>Aprendi o necessário.</dd>
+					<dt>JS</dt>
+					<dd>Aprendendo na MDN.</dd>
+				</dl>
+			</aside>
+		<div>
 	</main>
-	<aside>
-		<h3>HABILIDADES</h3>
-		<dl>
-			<dt>HTML</dt>
-			<dd>Já aprendi o suficiente.</dd>
-			<dt>CSS</dt>
-			<dd>Aprendi o necessário.</dd>
-			<dt>JS</dt>
-			<dd>Aprendendo na MDN.</dd>
-		</dl>
-	</aside>
 	<footer>
-		<p>MARCO SIEBEN</p>
+		<p class="inline-block">
+			MARCO<br />
+			<spam>SIEBEN</spam>
+		</p>
 
-		<ul>
-			<li><a href="https://twitter.com/">Twitter</a></li>
-			<li><a href="https://facebook.com/">Faceook</a></li>
-			<li><a href="https://instagram.com/">Instagram</a></li>
+		<ul class="inline-block">
+			<li class="inline-block">
+				<a class="inline-block" href="https://twitter.com/">Twitter</a>
+			</li>
+			<li class="inline-block">
+				<a class="inline-block" href="https://facebook.com/">Facebook</a>
+			</li>
+			<li class="inline-block">
+				<a class="inline-block" href="https://instagram.com/">Instagram</a>
+			</li>
 		</ul>
 	</footer>
   </body>
